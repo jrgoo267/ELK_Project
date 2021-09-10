@@ -77,6 +77,7 @@ The following screenshot displays the result of running “sudo docker ps” aft
 
 
 
+
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 - Web-1 10.0.0.11

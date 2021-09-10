@@ -31,7 +31,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 - Metricbeat takes the metrics and statistics that it collects and ships them to the output that you specify, such as Elasticsearch or Logstash.
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
+
 
 | Name     | Function   | IP Address | Operating System |
 |----------|----------- |------------|------------------|
@@ -73,7 +73,8 @@ The playbook implements the following tasks:
 - download and launch docker container sebp/elk:761
 
 The following screenshot displays the result of running “sudo docker ps” after successfully configuring the ELK instance.
- 
+ ![project screenshot](https://user-images.githubusercontent.com/82115478/132800707-9b73e340-c36c-4435-b335-2bc2ec9f8084.PNG)
+
 
 
 ### Target Machines & Beats
